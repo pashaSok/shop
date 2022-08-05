@@ -363,6 +363,10 @@ body {
   background: #70c05b;
 }
 .our-shops .container .tab-content .our-shop__map {
+  display: none;
   width: 100%;
   height: 354px;
+}
+.our-shops .container .tab-content .our-shop__map_active {
+  display: block;
 }/*# sourceMappingURL=style.css.map */
