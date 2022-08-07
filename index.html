@@ -60,7 +60,7 @@
                     <img src="./assets/images/star.png" alt="star">
                 </div>
 
-                <button class="product__item__button">В корзину</button>
+                <button class="product__item__button" id="product__item__button">В корзину</button>
             </div>
             <div class="product__item">
                 <div class="product__item__image-wrapper">
@@ -97,7 +97,7 @@
                     <img src="./assets/images/star.png" alt="star">
                 </div>
 
-                <button class="product__item__button">В корзину</button>
+                <button class="product__item__button" id="product__item__button">В корзину</button>
             </div>
             <div class="product__item">
                 <div class="product__item__image-wrapper">
@@ -134,7 +134,7 @@
                     <img src="./assets/images/star-active.png" alt="star">
                 </div>
 
-                <button class="product__item__button">В корзину</button>
+                <button class="product__item__button" id="product__item__button">В корзину</button>
             </div>
             <div class="product__item">
                 <div class="product__item__image-wrapper">
@@ -171,24 +171,24 @@
                     <img src="./assets/images/star.png" alt="star">
                 </div>
 
-                <button class="product__item__button">В корзину</button>
+                <button class="product__item__button" id="product__item__button">В корзину</button>
             </div>
         </div>
     </section>
     <section class="shopping-list">
         <div class="container">
             <span class="shopping-list__title">Список покупок:</span>
-            <ul class="shopping-list-wrapper">
+            <ul class="shopping-list-wrapper" id="shopping-list-wrapper">
                 <li class="shopping__item">
-                    <p class="shopping__item__text">Молоко ПРОСТОКВАШИНО ПРОСТОКВАШИНО</p>
+                    <p class="shopping__item__text">Молоко Простоквашино</p>
                     <div class="shopping__item__image-wrapper">
-                        <svg class="shopping__item__image"><use xlink:href="./assets/images/sprite.svg#close""></use></svg>
+                        <svg class="shopping__item__image"><use xlink:href="./assets/images/sprite.svg#close" class="shopping__item__image__inside"></use></svg>
                     </div>
                 </li>
                 <li class="shopping__item">
-                    <p class="shopping__item__text">Молоко ПРОСТОКВАШИНО ПРОСТОКВАШИНО</p>
+                    <p class="shopping__item__text">Молоко Простоквашино</p>
                     <div class="shopping__item__image-wrapper">
-                        <svg class="shopping__item__image"><use xlink:href="./assets/images/sprite.svg#close""></use></svg>
+                        <svg class="shopping__item__image"><use xlink:href="./assets/images/sprite.svg#close"></use></svg>
                     </div>
                 </li>
             </ul>
@@ -225,5 +225,6 @@
         </div>
     </section>
     <script src="./js/tabs.js"></script>
+    <script src="./js/basket.js"></script>
 </body>
 </html>

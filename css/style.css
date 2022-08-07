@@ -271,6 +271,11 @@ body {
   text-overflow: ellipsis;
   margin-right: 20px;
 }
+.shopping-list .container .shopping-list-wrapper .shopping__item .shopping__item__image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .shopping-list .container .shopping-list-wrapper .shopping__item .shopping__item__image-wrapper .shopping__item__image {
   width: 14px;
   height: 14px;
@@ -284,6 +289,9 @@ body {
   width: 14px;
   height: 14px;
   fill: #687180;
+}
+.shopping-list .container .shopping-list-wrapper .shopping__item .shopping__item__image-wrapper:hover .shopping__item__image use:not(svg) {
+  transform-origin: 0px 0px;
 }
 .shopping-list .container .shopping-list-wrapper .shopping__item .shopping__item__image-wrapper:active {
   transition: 0.5s;

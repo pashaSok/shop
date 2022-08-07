@@ -310,6 +310,7 @@ body{
             display: flex;
             flex-direction: column;
             row-gap: 20px;
+
             .shopping__item{
                 margin-left: 15px;
                 display: flex;
@@ -340,6 +341,9 @@ body{
                 }
 
                 .shopping__item__image-wrapper{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
 
                     .shopping__item__image{
                         width: 14px;
@@ -355,6 +359,12 @@ body{
                             width: 14px;
                             height: 14px;
                             fill:  #687180;
+
+                            use{
+                                &:not(svg){
+                                    transform-origin: 0px 0px;
+                                }
+                            }
                         }
 
                     }
