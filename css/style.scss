@@ -173,6 +173,14 @@ body{
                             stroke-width:30px;
                         }
 
+                        .product__item__like_active{
+                            width: 22px;
+                            height: 20px;
+                            fill: rgba(255, 102, 51, 1);
+                            stroke: rgba(255, 102, 51, 1);
+                            stroke-width:30px;
+                        }
+
                     }
 
                     .product__item__like{

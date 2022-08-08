@@ -137,6 +137,13 @@ body {
   stroke: rgb(255, 102, 51);
   stroke-width: 30px;
 }
+.products .container .product__item .product__item__image-wrapper .product__item__like-wrapper:hover .product__item__like_active {
+  width: 22px;
+  height: 20px;
+  fill: rgb(255, 102, 51);
+  stroke: rgb(255, 102, 51);
+  stroke-width: 30px;
+}
 .products .container .product__item .product__item__image-wrapper .product__item__like-wrapper .product__item__like {
   width: 22px;
   height: 20px;

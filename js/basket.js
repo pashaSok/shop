@@ -38,7 +38,7 @@ basketButton.forEach(item=>{
 
 
 document.addEventListener('click', e =>{
-    if(e.target.className.baseVal === "shopping__item__image"){
+    if(e.target.className.baseVal === 'shopping__item__image'){
         e.target.parentNode.parentNode.parentNode.removeChild(e.target.parentNode.parentNode);
     }
     else if(e.target.className.baseVal === 'shopping__item__image__inside'){
