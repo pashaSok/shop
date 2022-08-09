@@ -498,3 +498,150 @@ body{
     }
 
 }
+
+@media screen and (max-width: 1288px) {
+
+    .container{
+        width: auto;
+        padding: 0 40px;
+    }
+
+    .products{
+
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 40px;
+            justify-content: center;
+
+            .product__item{
+                margin: 0 auto;
+            }
+
+        }
+
+    }
+
+    .offers{
+
+        .container{
+
+            .offer__items-wrapper{
+                flex-direction: column;
+                row-gap: 40px;
+            }
+
+        }
+
+    }
+
+}
+
+@media screen and (max-width:668px){
+    
+    .header{
+        margin-bottom: 10px;
+
+        .container{
+            padding: 15px;
+            align-items: center;
+
+            .header__title{
+                font-size: 30px;
+                line-height: 1;
+            }
+
+            .sales-link-wrapper{
+                height: auto;
+                padding: 0;
+            }
+
+        }
+
+    }
+    
+    .container{
+        padding: 0 15px;
+    }
+
+    .products{
+        margin-bottom: 40px;
+
+        .container{
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            gap: 20px;
+        }
+
+    }
+
+    .shopping-list{
+        margin-bottom: 40px;
+
+        .container{
+
+            .shopping-list__title{
+                font-size: 30px;
+            }
+
+        }
+
+    }
+
+    .offers{
+        margin-bottom: 40px;
+
+        .container{
+
+            .offer__title{
+                font-size: 30px;
+                line-height: 1;
+                margin-bottom: 20px;
+            }
+
+            .offer__items-wrapper{
+                gap: 20px;
+
+                .offer__item{
+                    width: 100%;
+                    height: auto;
+                }
+
+            }
+
+        }
+
+    }
+
+    .our-shops{
+        padding-bottom: 40px;
+
+        .container{
+
+            .our-shops__title{
+                font-size: 30px;
+                line-height: 1;
+                margin-bottom: 20px;
+            }
+
+            .tab-buttons{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                gap: 20px;
+            }
+
+            .tab-content{
+
+                .our-shop__map{
+                    height: auto;
+                }
+
+            }
+
+        }
+
+    }
+
+}
